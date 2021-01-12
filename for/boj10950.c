@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    int a[100],b[100];
+    int a[10],b[10];
     scanf("%d",&n);
     for(int i = 0 ; i < n ; i++)
     {
