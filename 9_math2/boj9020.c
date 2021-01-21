@@ -6,7 +6,7 @@ void eratos(int* is_prime, int n);
 int main()
 {
     int t, small_prime, big_prime;
-    int input[1000], is_prime[10001] = {0, };
+    int input[10000], is_prime[10001] = {0, };
 
     scanf("%d",&t);
     for(int i = 0 ; i < t ; i ++)
