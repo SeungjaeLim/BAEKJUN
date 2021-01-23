@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int constructor(n);
+int constructor(int n);
 
 int main()
 {
