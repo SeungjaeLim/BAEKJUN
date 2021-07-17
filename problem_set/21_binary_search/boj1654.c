@@ -21,7 +21,6 @@ long long int cut_bsearch(long long int k, long long int n, long long int left, 
 {
     long long int sum = 0;
     long long int mid = (left + right) / 2;
-    //printf("%d %d %d\n", mid, left, right);
     if(left > right)
     {
         return mid;
@@ -34,7 +33,6 @@ long long int cut_bsearch(long long int k, long long int n, long long int left, 
     {
         sum += line[i] / mid;
     }
-    //printf("%d %d\n",sum, n);
     if(sum >= n)
     {
         return cut_bsearch(k, n , mid+1, right);
