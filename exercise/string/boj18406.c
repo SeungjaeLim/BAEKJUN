@@ -21,5 +21,6 @@ int main()
     {
         printf("READY");
     }
+    free(score);
     return 0;
 }
